@@ -20,10 +20,13 @@ This activation layer includes three primary components, each represented as tra
 
 Given an input \( x \), the activation function \( f(x) \) is defined as follows:
 
-\[ f(x) = \begin{cases} 
-K \cdot x & \text{if } x \leq T \\
-B \cdot T + e^{K \cdot (x - T)} & \text{if } x > T 
-\end{cases} \]
+### For inputs \( x \) less than or equal to the threshold \( T \):
+
+f(x) = K * x
+
+### For inputs \( x \) greater than the threshold \( T \):
+
+f(x) = B * T + exp(K * (x - T))
 
 Where:
 - \( x \) is the input to the neuron,
