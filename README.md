@@ -1,5 +1,5 @@
 # Tension-Jump-Activation-Function
-A trainable physics-based activation layer.
+A trainable physics-based activation layer. For citation please check [![DOI](https://zenodo.org/badge/816137721.svg)](https://zenodo.org/doi/10.5281/zenodo.11949670)
 
 ![image](https://github.com/SoroushOskouei/Tension-Jump-Activation-Function/assets/57323986/99674c1c-3c06-43bf-975d-88a9735f9156)
 
